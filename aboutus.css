@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'Call-me-Jigo';
+    src: url('../fonts/Call-me-Jigo.woff2') format('woff2'), 
+         url('../fonts/Call-me-Jigo.woff') format('woff'), 
+         url('../fonts/Call-me-Jigo.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Apply the font to the entire body */
+body {
+    font-family: 'Call-me-Jigo', sans-serif;
+}
+
+/* Optionally apply to specific elements */
+h1, h2, p {
+    font-family: 'Call-me-Jigo', sans-serif;
+}
+
