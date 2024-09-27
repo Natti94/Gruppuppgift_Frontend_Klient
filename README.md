@@ -29,13 +29,14 @@
 <br />
 <div align="center">
   <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="/bilder/logo.png" alt="Logo" width="80" height="80">
+    <img src="/bilder/logo.png" alt="Logo" width="80" height="80">A
+Vi är en webbshop som specialiserar oss på att erbjuda ett brett utbud av skor för alla tillfällen. Med fokus på kvalitet, komfort och stil erbjuder vi allt från sportskor och vardagsskor till exklusiva modeller och festskor. Vårt mål är att ge våra kunder en smidig shoppingupplevelse online, med snabba leveranser och förstklassig kundservice. Oavsett om du letar efter de senaste trenderna eller tidlösa klassiker, har vi skorna som passar just dig.
   </a>
 
   <h3 align="center">Best-README-Template</h3>
 
   <p align="center">
-    An awesome README template to jumpstart your projects!
+    
     <br />
     <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
     <br />
