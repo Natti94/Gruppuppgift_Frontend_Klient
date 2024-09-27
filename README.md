@@ -33,8 +33,13 @@
     <br>
     <br>
 Vi är en webbshop som specialiserar oss på att erbjuda ett brett utbud av skor för alla tillfällen. Med fokus på kvalitet, komfort och stil erbjuder vi allt från sportskor och vardagsskor till exklusiva modeller och festskor. Vårt mål är att ge våra kunder en smidig shoppingupplevelse online, med snabba leveranser och förstklassig kundservice. Oavsett om du letar efter de senaste trenderna eller tidlösa klassiker, har vi skorna som passar just dig.
+  </a align"center">
+  I kollaboration med:
+  Natnael Berhane
+  Mohammed Sharif
+  Fahad Shukur
+  Khalid Mohammed
   </a>
-  <br>
   I kollaboration med:
   Natnael Berhane
   Mohammed Sharif
