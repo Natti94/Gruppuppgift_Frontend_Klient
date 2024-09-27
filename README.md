@@ -36,6 +36,9 @@ Vi är en webbshop som specialiserar oss på att erbjuda ett brett utbud av skor
   <br>
   <br>
   <p>
+Vi har designat vår sida för att vara enkel och lättnavigerad, med fokus på att du snabbt ska hitta det du behöver. Genom att undvika onödiga funktioner och distraktioner har vi skapat en ren och intuitiv upplevelse som gör att du kan använda hemsidan utan krångel. Vår minimalistiska design hjälper dig att fokusera på det viktigaste, med tydliga menyer och en smart layout som leder dig rätt. Oavsett om du är här för att lära dig mer, få hjälp eller utforska våra tjänster, är vår hemsida byggd med enkelhet och användarvänlighet i åtanke.</p> 
+  <br>
+  <p>
   I kollaboration med:
   Natnael Berhane
   Mohammed Sharif
