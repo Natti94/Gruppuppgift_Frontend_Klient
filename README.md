@@ -40,10 +40,10 @@ Vi har designat vår sida för att vara enkel och lättnavigerad, med fokus på 
   <br>
   <p>
   I kollaboration med:
-  Natnael Berhane
-  Mohammed Sharif
-  Fahad Shukur
-  Khalid Mohammed
+  Natnael Berhane [Store/Hem sida]
+  Mohammed Sharif [Portfolio sida]
+  Fahad Shukur [About us sida]
+  Khalid Mohammed [Login & Ask Us sida]
   </p>
 
   <h3 align="center">Best-README-Template</h3>
