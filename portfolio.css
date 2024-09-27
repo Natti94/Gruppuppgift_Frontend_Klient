@@ -1,5 +1,34 @@
+
+
+/* the whole body */
+
 body{
 
+    background-color: black;
 
-    background-color: green;
+    color: rgb(204, 190, 220);
+    text-align: center;
+
+    padding: 20px;
+    margin: 5px auto;
 }
+
+
+
+*{
+    margin: 0 auto;
+    padding: 0 auto;
+    box-sizing: border-box;
+
+    
+/* the header  */
+}
+
+header {
+    background-color:#222;
+    color: white;
+    padding: 40px;
+}
+
+/* the project */
+
