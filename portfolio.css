@@ -20,10 +20,25 @@ body{
     padding: 0 auto;
     box-sizing: border-box;
 
-    
-/* the header  */
-}
+    }
 
+    
+
+    .nav a{
+        float: right;
+        text-align: center;
+        padding: 15px;
+        text-emphasis: none;
+
+      
+
+    
+
+    
+
+
+}
+/* the whole body */
 header {
     background-color:#222;
     color: white;
@@ -31,4 +46,6 @@ header {
 }
 
 /* the project */
+
+
 
