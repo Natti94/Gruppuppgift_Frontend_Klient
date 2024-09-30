@@ -1,57 +1,108 @@
 
 
-/* the whole body */
 
 body{
-
-    background-color: black;
-
-    color: rgb(204, 190, 220);
-    text-align: center;
-
-    padding: 20px;
-    margin: 5px auto;
-}
-
-
-
-*{
-    margin: 0 auto;
-    padding: 0 auto;
     box-sizing: border-box;
+ background-color: whitesmoke
+ color: white; 
+}
+ /* Navbar */
 
-    }
-
-    /* Navbar */
-
-    .nav a{
-        float: right;
-        padding: 15px;
-        text-emphasis: none;
-
-      
-
-    
-
-    
-
+.nav a{
+float: right;
+ padding: 10px;
+ color: whitesmoke;
+font-size:large;
 
 }
+
 /* the header  */
-header {
-    background-color:#222;
-    color: white;
-    padding: 40px;
-    text-align: center;
+
+.header{
+background-color:black;
+   color: whitesmoke;
+    padding: 30px;
+    margin: 0 auto;
+    border: 1px solid blue;
    
 }
+header h1{
+    margin-bottom: 10px;
+    text-align: center;
+
+}
+header p{
+    
+    text-align: center;
+    color: white;
+}
+.nav2{
+    float: left;
+    padding: 10px;
+    color: white;
+    font-size: larger;
+    
+    }
+    
+/*----------------------------------------------------*/
+.project{
+    display: grid;
+    grid-template-columns: auto  auto auto;
+    gap: 20+x;
+    padding: 20px;
+    box-shadow: 2px;
+    width: 200px;
+   text-align: center;
+    
+}
+.project1{
+    max-width: 100%;
+    border-radius: 50px;
+    border: 1px solid black;
+    margin: 0 auto;
+}
+.project2{
+    max-width: 100%;
+    border-radius: 50px;
+    border: 1px solid black;
+    margin: 0 auto;
+
+}
+.project3{
+    max-width: 100%;
+    border-radius: 50px;
+    border: 1px solid black;
+}
+    
 
 
-/* the project */
 
 
 
-/* the sections */
+
+
+/*----------------footer----------*/
+.footer{
+    background-color:black;
+    border: 1px solid green;
+
+   color: whitesmoke;
+    padding: 30px;
+    
+     display: grid;
+    grid-template-columns: auto auto;  
+    
+   
+}
+.socialmedia{
+    
+    color: white;
+    float: left;
+    display: grid;
+    
+}
+
+/*------------sections ----------*/
 
 
 .section{
@@ -86,7 +137,4 @@ header {
     height: 200px;
 }
 
-
-
-
-
+.
