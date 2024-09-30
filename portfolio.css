@@ -22,11 +22,10 @@ body{
 
     }
 
-    
+    /* Navbar */
 
     .nav a{
         float: right;
-        text-align: center;
         padding: 15px;
         text-emphasis: none;
 
@@ -38,14 +37,56 @@ body{
 
 
 }
-/* the whole body */
+/* the header  */
 header {
     background-color:#222;
     color: white;
     padding: 40px;
+    text-align: center;
+   
 }
 
+
 /* the project */
+
+
+
+/* the sections */
+
+
+.section{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    border: 2px solid white;
+    width: 100%;
+    height: 100px;
+    
+}
+
+.section1{
+    background-color: grey;
+    border: 2px solid blue;
+    
+}
+
+.section2{
+    background-color: pink;
+    color: black;
+     }
+    .section3{
+
+        background-color: grey;
+    }
+
+    .img
+{
+    background-color: black;
+    border: pink solid 3px;
+    width: 200px;
+    height: 200px;
+}
+
+
 
 
 
