@@ -1,0 +1,71 @@
+
+
+.main {
+    display: grid;
+    width: 500px;
+    padding: 20px;
+    border: 1px solid #d0d7de;
+    background-color: #ffffff;
+    gap: 15px;
+    text-align: center;
+}
+
+.username {
+    font-size: 14px;
+    color: #24292e;
+    text-align: left;
+}
+
+.användarnamn {
+    padding: 10px;
+    background-color: #f6f8fa;
+    border: 1px solid #d0d7de;
+    
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+.password {
+    font-size: 14px;
+    color: #24292e;
+    text-align: left;
+}
+
+.lösenord {
+    padding: 10px;
+    background-color: #f6f8fa;
+    border: 1px solid #d0d7de;
+
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+.login {
+    padding: 10px;
+    background-color: #2da44e;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.resetpassword { 
+    font-size: 14px;
+    text-align: right;
+    color: #0969da;
+    text-decoration: none;
+}
+
+.account {
+    display: grid;
+    width: 500px;
+    padding: 20px;
+    border: 1px solid #d0d7de;
+    background-color: #ffffff;
+    gap: 15px;
+    text-align: center;  
+}
+
+
