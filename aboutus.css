@@ -1,20 +1,82 @@
-@font-face {
-    font-family: 'Call-me-Jigo';
-    src: url('../fonts/Call-me-Jigo.woff2') format('woff2'), 
-         url('../fonts/Call-me-Jigo.woff') format('woff'), 
-         url('../fonts/Call-me-Jigo.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
+.wrapper{
+     width: 100%;
+     min-height: 100vh;
+     overflow: hidden;
+     background-color: #ddd ;
 }
+    
+.row{
+    width: 100%;
+    padding: 50px 100px;
+
+}
+
+
+.image-section img{
+    width: 100%;
+    height: auto;
+   
+}
+
+.content{
+    width: 60%;
+    float: left;
+    margin-left: 50px;
+
+}
+.content h1{
+    font-size: 90px;
+    letter-spacing: 3.5px;
+    margin-top: 25px;
+    color: #222;
+
+}    
+.content h2{
+    font-size:  40px;
+    font-family: sans-serif;
+color: #b60112;
+}
+
+.content p{
+    font-style: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 10px;
+    line-height: 1,5;
+    
+}
+
+@media screen and (max-width:768px) {
+    .image-section{
+width: 100%;
+float: none;
+    }
+ }
+    
+
+
+
+
 
 /* Apply the font to the entire body */
 body {
     font-family: 'Call-me-Jigo', sans-serif;
+    background-color: wheat;
 }
 
 /* Optionally apply to specific elements */
-h1, h2, p {
+ h2
+  {
     font-family: 'Call-me-Jigo', sans-serif;
 }
 
+
+nav
+{
+display: grid; 
+grid-template-columns: repeat(5, 1fr);
+text-align: center;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+background-color: gray;
+height: 100vh;
+max-height: 20px;
+}
