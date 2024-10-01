@@ -1,92 +1,240 @@
-/* RÖR INTE DETTA */
+/* design på scroll */
+::-webkit-scrollbar-corner
+{
+background-color: black;
+cursor: pointer;
+transition: background-color 1s ease;
+}
+::-webkit-scrollbar
+{
+background-color: black;
+border: 1px solid white;
+cursor: pointer;
+}
+::-webkit-scrollbar-track
+{
+background-color: white;
+cursor: pointer;
+}
+::-webkit-scrollbar-thumb
+{
+background-color: black;
+border: 1px solid white;
+}
+::-webkit-scrollbar-thumb:hover
+{
+background-color: #333;
+cursor: pointer;
+transition: background-color ease;
+}
+
+/* design på scroll */
+
+/* ------------- */
+
+/* body börjar */
+
 body
 {
-grid-template-rows: repeat(12, 1fr);
-grid-template-areas: 
-'header''header''header''header''header''header''header''header''header''header''header''header'
-'nav''nav''nav''nav''nav''nav''nav''nav''nav''nav''nav''nav''nav''nav''nav''nav''nav''nav''nav'
-'empty''empty''empty''empty''empty''empty''empty''empty''empty''empty''empty''empty'
-'footer''footer''footer''footer''footer''footer''footer''footer''footer''footer''footer''footer';
+background-color: orange;
 }
 
-header
-{    
-grid-area: header;
+
+/* body avslutar */
+
+/* -------------- */
+
+/* header & mid börjar här */
+.headerandmid 
+{
+display: grid;
+grid-gap: 25px;
+padding-bottom: 25px;
+color: white;   
+margin-left: 5%;
+margin-right: 5%;
+font-family: 'Courier New', Courier, monospace;
+}
+.viktigt
+{   
+grid-column: 1 / 6;
 text-align: left;
-background-color: gray;
-height: 50px;
 }
-
-@font-face {
+.nav
+{   
+grid-column: 6 / 12;
+text-align: right;
 }
-    header {
-    
-    
-        @font-face {
-            font-family: 'Call-me-Jigo';
-            src: url('../fonts/Call-me-Jigo.woff2') format('woff2'), / Modern browsers /
-                 url('../fonts/Call-me-Jigo.woff') format('woff'),   / Older browsers /
-                 url('../fonts/Call-me-Jigo.ttf') format('truetype'); / Fallback for very old browsers /
-            font-weight: normal;
-            font-style: normal;
-        
-        }
-}
-
-
-nav
+.nav > a
 {
-grid-area: nav;
-text-align: center;
-background-color: gray;
-padding-bottom: 10px;
-}
-nav > a
-{
-color: black;
+color: white;   
 text-decoration: none;
-padding: 50px;
+margin: 40px;
+font-size: 20px; 
+}
+.rea
+{
+grid-column: 1 / 12;
+}
+header
+{
+grid-column: 1 / 8;
+font-size: 30px;
+}
+input
+{
+grid-column: 8 / 12;
+}
+/* knappar & visnings lista på produkter */
+.select-list
+{
+border-right: 1px solid white;
+grid-column: 1 / 3;
+height: 300px;
+color: white;
+padding: 30px;
+
+.herr:hover, .dam:hover, .senior:hover, .barn:hover
+{
+background-color: #333;
+}
+}
+/* knappar & visnings lista på produkter */
+.herr
+{
+background-color: black;
+color: white;
+margin-bottom: 50px;
+font-size: 30px;
+font-family: 'Courier New', Courier, monospace;
+border-color: transparent;
+cursor: pointer;
+transition: background-color 1s ease;
+}
+.dam
+{
+background-color: black;
+color: white;
+margin-bottom: 50px;
+font-size: 30px;
+font-family: 'Courier New', Courier, monospace;
+border-color: transparent;
+}
+.senior
+{
+background-color: black;
+color: white;
+margin-bottom: 50px;
+font-size: 30px;
+font-family: 'Courier New', Courier, monospace;
+border-color: transparent;
+cursor: pointer;
+transition: background-color 1s ease;
+}
+.barn
+{
+background-color: black;
+color: white;
+margin-bottom: 50px;
+font-size: 30px;
+font-family: 'Courier New', Courier, monospace;
+border-color: transparent;
+cursor: pointer;
+transition: background-color 1s ease;
+}
+/* knappar *
+
+/* bilder på produkter */
+.result
+{
+grid-column: 3 / 12;
+display: flex;
+flex-wrap: wrap;
+gap: 5px;    
+height: 300px;
+padding: 15px;
+color: white;
+text-align: center;    
+overflow: scroll;
+width: auto;
+height: auto;
+
+}
+.herrskor1, 
+.herrskor2,
+.herrskor3,
+.herrskor4,
+.herrskor5,
+.herrskor6,
+.herrskor7,
+.herrskor8,
+.herrskor9,
+.herrskor10,
+.herrskor11,
+.herrskor12,
+.herrskor13,
+.herrskor14,
+.herrskor15,
+.herrskor16,
+.herrskor17,
+.herrskor18,
+.herrskor19,
+.herrskor20
+{
+width: 100px;
+height: 100px;
+background-image: url('bilder/pexels-pixabay-60619.jpg');
+background-size: cover; 
+background-position: center;
+border: 1px solid #ddd;
+border-radius: 5px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+color: white;
+text-align: right;
 }
 
 
+/* header & mid avslutar här */
 
+/* -------------- */
+
+/* footer börjar här */
 footer
 {
-grid-area: footer;
-border-top: solid;
-border-color: black;
-background-color: lightgray;
-padding: 10px;
-overflow: hidden;
+border-top: 1px solid white;
+display: grid; 
+grid-template-columns: repeat(4, 1fr);
+grid-gap: 35px;
+padding: 15px;
+height: 180px;
+color: white;    
+margin-left: 5%;
+margin-right: 5%;
+font-family: 'Courier New', Courier, monospace;
 }
-.footer-socials
+.footer-box1 
 {
-float: left;
+padding-top: 20px;
+grid-column: 1 / 2;
 }
-.footer-copyright
+img:hover
 {
-text-align: center;
+cursor: pointer;
+transition: background-color ease;
 }
-.footer-contact
+.footer-box2 
 {
-float: right;
-}      
-/* RÖR INTE DETTA */
+grid-column: 2 / 3;
+}         
+.footer-box3
+{
+grid-column: 3 / 4;   
+}       
+.footer-box4
+{
+grid-column: 4 / 5;
+text-align: right;
+}
+/* footer avslutar här */
 
-/* ARBETA HÄR */
-.empty
-{
-grid-area: empty;
-height: 500px;
-padding: 20px;
-}
-
-.empty > video
-{
-object-fit: cover;
-height: 100%;
-width: 100%;
-border: 1px solid lightblue;
-border-radius: 20px;
-}
-/* ARBETA HÄR */
+/* -------------- */
