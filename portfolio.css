@@ -3,7 +3,8 @@
 
 body{
     box-sizing: border-box;
- background-color: whitesmoke
+ background-color:#0e0b01bc;
+
  color: white; 
 }
  /* Navbar */
@@ -11,31 +12,26 @@ body{
 .nav a{
 float: right;
  padding: 10px;
- color: whitesmoke;
+ color: wheat;
 font-size:large;
 
 }
 
 /* the header  */
 
-.header{
+.header1{
 background-color:black;
    color: whitesmoke;
-    padding: 30px;
+    padding: 10px;
     margin: 0 auto;
-    border: 1px solid blue;
+    border: 1px solid rgba(170, 0, 255, 0.089);
+    text-align: justify;
+    text-align: center;
+    
    
 }
-header h1{
-    margin-bottom: 10px;
-    text-align: center;
 
-}
-header p{
-    
-    text-align: center;
-    color: white;
-}
+
 .nav2{
     float: left;
     padding: 10px;
@@ -43,11 +39,29 @@ header p{
     font-size: larger;
     
     }
+
+    .aside{
+        
+        float: right;
+        display: grid;
+        grid-template-columns: auto;
+        border-radius: 10px ;
+        width: 40%; 
+        color: wheat;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: large;
+        float: right;
+        text-align: center;
+        margin: 2px;
+        
+        
+        }
     
-/*----------------------------------------------------*/
+    
+/*-----------------part one-----------------------------------*/
 .project{
     display: grid;
-    grid-template-columns: auto  auto auto;
+    grid-template-columns: auto auto auto auto;  
     gap: 20+x;
     padding: 20px;
     box-shadow: 2px;
@@ -62,19 +76,78 @@ header p{
     margin: 0 auto;
 }
 .project2{
+    grid-template-columns: auto;
     max-width: 100%;
     border-radius: 50px;
     border: 1px solid black;
     margin: 0 auto;
+    float: right;
 
 }
 .project3{
+    
     max-width: 100%;
     border-radius: 50px;
     border: 1px solid black;
+    flex-direction: column;
+    
 }
     
+/*-------------part two----------*/
 
+.portfolio{
+ 
+   
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 0 auto;
+    padding: 10px;
+    gap:2%;
+    width: 1200px;
+    
+    
+
+}
+.portfolio1{
+    background-color: whitesmoke;
+    border-radius:20px ;
+    border: 1px solid black;
+    overflow: hidden;
+    text-align: center;
+    color: black;
+}
+.portfolio1:hover{
+    transform: scale(1.05);
+    
+}
+
+.portfolio2{
+    background-color: white;
+
+    border-radius:20px ;
+    border: 1px solid white;
+    overflow: hidden;
+    text-align: center;
+    color: black;  
+}
+    
+.portfolio2:hover{
+    transform: scale(1.05);
+
+}
+.portfolio3{
+
+    background-color: white;
+    border-radius: 20px;
+    border: 1px solid black;
+    overflow: hidden;
+    text-align: center;
+    color: black;
+}
+.portfolio3:hover{
+    transform: scale(1.05);
+}
+    
 
 
 
@@ -82,59 +155,20 @@ header p{
 
 
 /*----------------footer----------*/
-.footer{
-    background-color:black;
-    border: 1px solid green;
-
-   color: whitesmoke;
-    padding: 30px;
-    
-     display: grid;
-    grid-template-columns: auto auto;  
-    
-   
-}
-.socialmedia{
-    
-    color: white;
-    float: left;
-    display: grid;
-    
-}
-
-/*------------sections ----------*/
-
-
-.section{
-    display: grid;
-    grid-template-columns: auto auto auto;
-    border: 2px solid white;
-    width: 100%;
-    height: 100px;
-    
-}
-
-.section1{
-    background-color: grey;
-    border: 2px solid blue;
-    
-}
-
-.section2{
-    background-color: pink;
-    color: black;
-     }
-    .section3{
-
-        background-color: grey;
-    }
-
-    .img
-{
+.container{
     background-color: black;
-    border: pink solid 3px;
-    width: 200px;
-    height: 200px;
+    color: whitesmoke;
+    text-align: center;
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
 }
 
-.
+
+
+
+
+
+
