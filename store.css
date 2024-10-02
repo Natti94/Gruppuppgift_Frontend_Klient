@@ -1,44 +1,30 @@
-/* body börjar */
-body
-{
-
-}
-
-/* -------------- */
-
 /* header & mid börjar här */
 .headerandmid 
 {
 display: grid;
 grid-gap: 25px;
 padding-bottom: 25px;
-color: black;   
+color: black;  
 font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .viktigt
 {   
-grid-column: 1 / 3;
+grid-column: 1 / 2;
 text-align: left;
 background-color: black;
 color: white;
-padding: 5px;
 }
 header
 {
-grid-column: 3 / 4;
-text-align: left;
+grid-column: 3 / 6;
+text-align: center;
 font-size: 30px;
 font-family:'Courier New', Courier, monospace;
-background-color: black;
-color: white;
-padding: 5px;
-height: 30px;
-width: 220px;
+color: black;
 }
 .nav
 {     
-height: 25px;
-grid-column: 4 / 9;
+grid-column: 7 / 10;
 text-align: center;
 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 font-size: 20px; 
@@ -57,22 +43,28 @@ color:red;
 }
 input
 {
-grid-column: 9 / 10;
+grid-column: 10 / 11;
 height: 20px;
 width: 100px;
 }
-.profile-cart > a
-{
-font-family: 'Courier New', Courier, monospace;
-text-decoration: none;
-color: white;
-}
-
 .login 
 {
-grid-column: 10 / 13;
+grid-column: 12 / 13;
+font-family: 'Courier New', Courier, monospace;
+text-decoration: none;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+color: white;
+padding: 5px;
+height: 20px;
+width: 220px;
+grid-gap: 5px;
+text-align: right;
 }
-
+.login > a
+{
+text-decoration: none;
+color: black;
+}
 @keyframes
 scroll-text
 {
@@ -87,7 +79,7 @@ transform: translateX(-100%);
 }
 .rea
 {
-grid-column: 1 / 12;
+grid-column: 1 / 13;
 color: red;
 font-size: 20px;
 animation: scroll-text 8s linear infinite;
@@ -96,24 +88,20 @@ animation: scroll-text 8s linear infinite;
 
 .select-list
 {
-border-right: 1px solid black;
-grid-column: 1 / 3;
-color: white;
+grid-column: 1 / 2;
 }
-
 .herr:hover,
 .dam:hover,
-.senior:hover,
-.barn:hover
+.barn.hover
 {
 transition: color 1s ease;
 color:red;
+cursor: pointer;
 }
-/* knappar & visnings lista på produkter */
 .herr
 {
 background-color: lightgray;
-margin-bottom: 50px;
+margin-bottom: 100px;
 font-size: 30px;
 font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 background-color: transparent;
@@ -122,16 +110,7 @@ border-color: transparent;
 .dam
 {
 background-color: lightgray;
-margin-bottom: 50px;
-font-size: 30px;
-font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-background-color: transparent;
-border-color: transparent;
-}
-.senior
-{
-background-color: lightgray;
-margin-bottom: 50px;
+margin-bottom: 100px;
 font-size: 30px;
 font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 background-color: transparent;
@@ -140,18 +119,17 @@ border-color: transparent;
 .barn
 {
 background-color: lightgray;
-margin-bottom: 50px;
+margin-bottom: 100px;
 font-size: 30px;
 font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 background-color: transparent;
 border-color: transparent;
 }
 /* knappar *
-
 /* bilder på produkter */
-.result
+.result-herr
 {
-grid-column: 3 / 11;
+grid-column: 3 / 13;
 display: flex;
 flex-wrap: wrap;
 gap: 5px;    
@@ -160,8 +138,6 @@ padding: 15px;
 color: white;
 text-align: center;    
 overflow: scroll;
-width: auto;
-height: auto;
 }
 .herrskor1, 
 .herrskor2,
@@ -191,46 +167,44 @@ background-size: cover;
 background-position: center;
 border-radius: 5px;
 box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-color: #333;
+color: red;
 text-align: right;
 border: 1px solid black;
 }
 /* header & mid avslutar här */
-
 /* -------------- */
-
 /* footer börjar här */
 footer
 {
-border-top: 1px solid black;
-display: grid; 
-grid-template-columns: repeat(4, 1fr);
+display: grid;
+grid-column: 1 / 13;
+border-top: 1px solid black; 
 grid-gap: 35px;
 padding: 15px;
 height: 180px; 
 font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+
 .footer-box1 
 {
 padding-top: 20px;
-grid-column: 1 / 2;
+grid-column: 1 / 3;
 }
 img:hover
 {
 cursor: pointer;
-transition: background-color ease;
 }
 .footer-box2 
 {
-grid-column: 2 / 3;
+grid-column: 4 / 7;
 }         
 .footer-box3
 {
-grid-column: 3 / 4;   
+grid-column: 8 / 11;   
 }       
 .footer-box4
 {
-grid-column: 4 / 5;
+grid-column: 12 / 13;
 text-align: right;
 }
 /* footer avslutar här */
