@@ -3,10 +3,8 @@
 
 body{
     box-sizing: border-box;
-
- background-color:gray;
-
- color: white; 
+    background-color: gray;
+    color: white; 
 }
  /* Navbar */
 
@@ -42,18 +40,13 @@ background-color:black;
     }
 
     .aside{
-        
-        float: right;
-        display: grid;
-        grid-template-columns: auto;
-        border-radius: 10px ;
-        width: 40%; 
+
         color: wheat;
-        font-family: Arial, Helvetica, sans-serif;
         font-size: large;
-        float: right;
         text-align: center;
-        margin: 2px;
+        b
+       
+
         
         
         }
@@ -71,7 +64,7 @@ background-color:black;
     
 }
 .project1{
-    max-width: 100%;
+
     border-radius: 50px;
     border: 1px solid black;
     margin: 0 auto;
@@ -101,13 +94,12 @@ background-color:black;
    
     display: grid;
     grid-template-columns: auto auto auto;
-    margin: 0 auto;
+    margin:0 auto;
     padding: 10px;
     gap:2%;
     width: 1200px;
+    overflow: hidden;
     
-    
-
 }
 .portfolio1{
     background-color: gray;
@@ -115,7 +107,8 @@ background-color:black;
     border: 1px solid black;
     overflow: hidden;
     text-align: center;
-    color: black;
+    color: white;
+    
 }
 .portfolio1:hover{
     transform: scale(1.05);
@@ -126,10 +119,10 @@ background-color:black;
     background-color: gray;
 
     border-radius:20px ;
-    border: 1px solid white;
+    border: 1px solid black;
     overflow: hidden;
     text-align: center;
-    color: black;  
+    color: white;  
 }
     
 .portfolio2:hover{
@@ -143,29 +136,133 @@ background-color:black;
     border: 1px solid black;
     overflow: hidden;
     text-align: center;
-    color: black;
+    color: white;
+   
 }
 .portfolio3:hover{
     transform: scale(1.05);
+
 }
+
+.third{
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin:0 auto;
+    padding: 10px;
+    gap:2%;
     
+    columns: white  ;
+    text-align: center;
+    width: 70%;
+    
+        
+
+}
+
+    
+  
+
+    
+.portfolio4{
+    border-radius: 10px;
+    text-align: center;
+    border: 1px solid gray;
+}
+.portfolio4:hover{
+    transform: scale(1.05);
+
+}
+.price  {
+
+    background-color: white;
+    border-radius: 5px;
+    width: 2s00px;
+    text-align: center;
+   
+}
 
 
+.Portfolio5{
+   border-radius: 20px;
+  overflow: hidden;
+  text-align: center;
+  height: 350;
+  
+   
+}
 
 
+.Portfolio5:hover{
+    transform: scale(1.05);
+
+}
 
 
+   
+
+.portfolio6{
+    
+    border-radius: 20px;
+   overflow: hidden;
+    text-align: center;
+    
+    
+}
+
+
+.portfolio6:hover{
+    transform: scale(1.05);
+
+}
+
+.portfolio7{
+    border-radius: 20px;
+    overflow: hidden;
+}
+.portfolio7:hover{
+    transform: scale(1.05);
+}
+.portfolio8:hover{
+    transform: scale(1.05);
+
+}
+.portfolio9:hover{
+    transform: scale(1.05);
+}
+.portfolio10:hover{
+    transform: scale(1.05);
+}
+.para{
+    text-align: center;
+    color: black;
+}
 /*----------------footer----------*/
 .container{
     background-color: black;
     color: whitesmoke;
     text-align: center;
-    padding: 30px;
+    margin: 0 auto;
+    padding: 20px;
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-around;
     
 }
+
+
+/*------tap --------------*/
+
+@media (max-width: 900px){
+    .aside{
+        display: flex;
+        
+    
+
+
+     }
+   
+
+   }
 
 
 
