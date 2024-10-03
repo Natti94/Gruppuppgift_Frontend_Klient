@@ -1,3 +1,7 @@
+body
+{
+background-color: #f6f6f6;
+}
 /* header & mid börjar här */
 .headerandmid 
 {
@@ -9,15 +13,14 @@ font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .viktigt
 {   
-grid-column: 1 / 2;
-text-align: left;
+grid-column: 1 / 3;
 background-color: black;
 color: white;
+width: 92%;
 }
 header
 {
 grid-column: 3 / 6;
-text-align: center;
 font-size: 30px;
 font-family:'Courier New', Courier, monospace;
 color: black;
@@ -88,11 +91,8 @@ animation: scroll-text 8s linear infinite;
 
 /* header & mid börjar här */
 .loginscreen {
-grid-column: 5 / 10;
+grid-column: 1 / 13;
 padding: 20px;
-border: 1px solid #d0d7de;
-background-color: #ffffff;
-gap: 15px;
 text-align: center;
 }
 .account {
