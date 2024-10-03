@@ -1,6 +1,10 @@
-body
-{
-background-color: #f6f6f6;
+
+
+
+body{
+    box-sizing: border-box;
+    background-color: gray;
+    color: white; 
 }
 .headerandmid 
 {
@@ -17,6 +21,55 @@ background-color: black;
 color: white;
 width: 130%;
 }
+
+
+.nav2{
+    float: left;
+    padding: 10px;
+    color: wheat;
+    font-size: larger;
+    
+    }
+
+    .aside{
+
+        color: wheat;
+        font-size: large;
+        text-align: center;
+        float: right;
+        
+       
+
+        
+        
+        }
+    
+    
+/*-----------------part one-----------------------------------*/
+.project{
+    display: grid;
+    grid-template-columns: auto auto auto auto;  
+    gap: 20+x;
+    padding: 20px;
+    box-shadow: 2px;
+    width: 200px;
+   text-align: center;
+    
+}
+.project1{
+
+    border-radius: 50px;
+    border: 1px solid black;
+    margin: 0 auto;
+}
+.project2{
+    grid-template-columns: auto;
+    max-width: 100%;
+    border-radius: 50px;
+    border: 1px solid black;
+    margin: 0 auto;
+    float: right;
+
 header
 {
 grid-column: 3 / 6;
@@ -30,6 +83,7 @@ grid-column: 7 / 10;
 text-align: center;
 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 font-size: 20px; 
+
 }
 .nav > a
 {
@@ -91,6 +145,20 @@ animation: scroll-text 8s linear infinite;
 {
 grid-column: 1 / 6;
 }
+    
+/*-------------part two----------*/
+
+.portfolio{
+ 
+   
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin:0 auto;
+    padding: 10px;
+    gap:2%;
+    width: 1200px;
+    overflow: hidden;
+    
 
 .portfolio-vid
 {
@@ -108,7 +176,8 @@ height: 500px;
 
     overflow: hidden;
     text-align: center;
-    color: black;
+    color: white;
+    
 }
 .portfolio1:hover{
     transform: scale(1.05);
@@ -118,10 +187,10 @@ height: 500px;
 .portfolio2{
     grid-column: 1 / 13;
     border-radius:20px ;
-    border: 1px solid white;
+    border: 1px solid black;
     overflow: hidden;
     text-align: center;
-    color: black;  
+    color: white;  
 }
     
 .portfolio2:hover{
@@ -135,11 +204,129 @@ height: 500px;
  
     overflow: hidden;
     text-align: center;
-    color: black;
+    color: white;
+   
 }
 .portfolio3:hover{
     transform: scale(1.05);
+
 }
+
+.third{
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin:0 auto;
+    padding: 10px;
+    gap:2%;
+    
+    columns: white  ;
+    text-align: center;
+    width: 70%;
+    
+        
+
+}
+
+    
+  
+
+    
+.portfolio4{
+    border-radius: 10px;
+    text-align: center;
+    border: 1px solid gray;
+}
+.portfolio4:hover{
+    transform: scale(1.05);
+
+}
+.price  {
+
+    background-color: white;
+    border-radius: 5px;
+    width: 2s00px;
+    text-align: center;
+   
+}
+
+
+.Portfolio5{
+   border-radius: 20px;
+  overflow: hidden;
+  text-align: center;
+  height: 350;
+  
+   
+}
+
+
+.Portfolio5:hover{
+    transform: scale(1.05);
+
+}
+
+
+   
+
+.portfolio6{
+    
+    border-radius: 20px;
+   overflow: hidden;
+    text-align: center;
+    
+    
+}
+
+
+.portfolio6:hover{
+    transform: scale(1.05);
+
+}
+
+.portfolio7{
+    border-radius: 20px;
+    overflow: hidden;
+}
+.portfolio7:hover{
+    transform: scale(1.05);
+}
+.portfolio8:hover{
+    transform: scale(1.05);
+
+}
+.portfolio9:hover{
+    transform: scale(1.05);
+}
+.portfolio10:hover{
+    transform: scale(1.05);
+}
+.para{
+    text-align: center;
+    color: wheat;
+}
+/*----------------footer----------*/
+.container{
+    background-color: black;
+    color:wheat ;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    
+
+    }
+    
+
+
+
+/*------tap --------------*/
+
+@media (max-width: 900px)
+
+        
+   
 
 footer
 {
