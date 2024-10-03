@@ -34,7 +34,7 @@ background-color:black;
 .nav2{
     float: left;
     padding: 10px;
-    color: white;
+    color: wheat;
     font-size: larger;
     
     }
@@ -44,7 +44,8 @@ background-color:black;
         color: wheat;
         font-size: large;
         text-align: center;
-        b
+        float: right;
+        
        
 
         
@@ -235,34 +236,30 @@ background-color:black;
 }
 .para{
     text-align: center;
-    color: black;
+    color: wheat;
 }
 /*----------------footer----------*/
 .container{
     background-color: black;
-    color: whitesmoke;
+    color:wheat ;
     text-align: center;
     margin: 0 auto;
     padding: 20px;
     display: flex;
     justify-content: space-around;
     
-}
+
+    }
+    
+
 
 
 /*------tap --------------*/
 
-@media (max-width: 900px){
-    .aside{
-        display: flex;
+@media (max-width: 900px)
+
         
     
-
-
-     }
-   
-
-   }
 
 
 
