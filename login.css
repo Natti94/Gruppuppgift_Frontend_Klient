@@ -10,7 +10,6 @@ font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 .viktigt
 {   
 grid-column: 1 / 2;
-text-align: left;
 background-color: black;
 color: white;
 }
@@ -88,11 +87,8 @@ animation: scroll-text 8s linear infinite;
 
 /* header & mid börjar här */
 .loginscreen {
-grid-column: 5 / 10;
+grid-column: 1 / 13;
 padding: 20px;
-border: 1px solid #d0d7de;
-background-color: #ffffff;
-gap: 15px;
 text-align: center;
 }
 .account {
