@@ -1,3 +1,7 @@
+body
+{
+background-color: #f6f6f6;
+}
 .headerandmid 
 {
 display: grid;
@@ -11,11 +15,11 @@ font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 grid-column: 1 / 2;
 background-color: black;
 color: white;
+width: 130%;
 }
 header
 {
 grid-column: 3 / 6;
-text-align: center;
 font-size: 30px;
 font-family:'Courier New', Courier, monospace;
 color: black;
@@ -96,9 +100,46 @@ border-radius: 10px;
 object-fit: cover;
 overflow: hidden;
 height: 500px;
-
 }
 
+.portfolio1{
+    grid-column: 1 / 13;
+    border-radius:20px ;
+
+    overflow: hidden;
+    text-align: center;
+    color: black;
+}
+.portfolio1:hover{
+    transform: scale(1.05);
+    
+}
+
+.portfolio2{
+    grid-column: 1 / 13;
+    border-radius:20px ;
+    border: 1px solid white;
+    overflow: hidden;
+    text-align: center;
+    color: black;  
+}
+    
+.portfolio2:hover{
+    transform: scale(1.05);
+
+}
+.portfolio3{
+    grid-column: 7 / 13;
+
+    border-radius: 20px;
+ 
+    overflow: hidden;
+    text-align: center;
+    color: black;
+}
+.portfolio3:hover{
+    transform: scale(1.05);
+}
 
 footer
 {
