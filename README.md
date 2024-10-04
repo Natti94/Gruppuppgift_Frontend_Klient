@@ -1,11 +1,7 @@
 <!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
 <a id="readme-top"></a>
 <!--
-*** Thanks for checking out the Best-README-Template. If you have a suggestion
-*** that would make this better, please fork the repo and create a pull request
-*** or simply open an issue with the tag "enhancement".
-*** Don't forget to give the project a star!
-*** Thanks again! Now go create something AMAZING! :D
+Vi är en webbshop som specialiserar oss på att erbjuda ett brett utbud av skor för alla tillfällen. Med fokus på kvalitet, komfort och stil erbjuder vi allt från sportskor och vardagsskor till exklusiva modeller och festskor. Vårt mål är att ge våra kunder en smidig shoppingupplevelse online, med snabba leveranser och förstklassig kundservice. Oavsett om du letar efter de senaste trenderna eller tidlösa klassiker, har vi skorna som passar just dig.
 -->
 
 
