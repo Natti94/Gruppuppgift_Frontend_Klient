@@ -217,10 +217,14 @@ Don't forget to give the project a star! Thanks again!
 ## Contact
 
 Your Names -
+<br>
 Natnael Berhane
+<br>
 Mohammed Sharif
+<br>
 Fehed Shushan
-Khalid Abdi
+<br>
+Khalid Adan
 
 Project Link: [https://github.com/Natti94/Grupparbete-Skor.git](https://github.com/natti94/repo_name)
 
