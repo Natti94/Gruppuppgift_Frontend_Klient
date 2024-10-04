@@ -1,10 +1,9 @@
+
 /* header & mid börjar här */
-body
-{
-background-color: #f6f6f6;
-}
 .headerandmid 
 {
+margin-left: -5px;
+margin-right: -5px;
 display: grid;
 grid-gap: 25px;
 padding-bottom: 25px;
@@ -14,8 +13,7 @@ font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 .viktigt
 {   
 grid-column: 1 / 2;
-background-color: black;
-color: white;
+color: black;
 width: 130%;
 }
 header
@@ -23,7 +21,7 @@ header
 grid-column: 3 / 6;
 text-align: center;
 font-size: 30px;
-font-family:'Courier New', Courier, monospace;
+font-family: fantasy;
 color: black;
 }
 .nav
@@ -86,13 +84,21 @@ transform: translateX(-100%);
 grid-column: 1 / 13;
 color: red;
 font-size: 20px;
-animation: scroll-text 8s linear infinite;
+animation: scroll-text 15s linear infinite;
+}
+.linje
+{
+margin-bottom: -2%;
+grid-column: 1 / 13;
+border-bottom: 1px solid black;
+
 }
 /* övre del slut */
 
 .select-list
 {
 grid-column: 1 / 2;
+border-right: 1px solid black;
 }
 .herr:hover,
 .dam:hover,
@@ -139,9 +145,8 @@ flex-wrap: wrap;
 gap: 5px;    
 height: 300px;
 padding: 15px;
-color: white;
 text-align: center;    
-overflow: scroll;
+overflow:auto;
 }
 .herrskor1, 
 .herrskor2,
@@ -166,27 +171,30 @@ overflow: scroll;
 {
 width: 100px;
 height: 100px;
-background-image: url('bilder/pexels-craytive-1456706.jpg');
+background-image: url('bilder/pexels-mnzoutfits-1598505.jpg');
 background-size: cover; 
 background-position: center;
 border-radius: 5px;
 box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-color: black;
+color: #d3adad;
 text-align: right;
-border: 1px solid black;
+border: 3px solid black;
 }
 /* header & mid avslutar här */
 /* -------------- */
 /* footer börjar här */
 footer
 {
+    margin-left: -8px;
+    margin-right: -8px;
 display: grid;
-grid-column: 1 / 13;
-border-top: 1px solid black; 
+grid-column: 1 / 13; 
 grid-gap: 35px;
 padding: 15px;
 height: 180px; 
 font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+border-top: 1px solid black;
+color: black;
 }
 
 .footer-box1 
@@ -201,6 +209,10 @@ cursor: pointer;
 {
 grid-column: 4 / 7;
 }         
+.footer-box2 > a
+{
+color: black;
+}
 .footer-box3
 {
 grid-column: 8 / 11;   

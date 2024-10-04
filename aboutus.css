@@ -13,18 +13,17 @@ font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 .viktigt
 {   
 grid-column: 1 / 2;
-background-color: black;
-color: white;
-width: 108%;
+color: black;
+width: 130%;
 }
 header
 {
 grid-column: 3 / 6;
+text-align: center;
 font-size: 30px;
-font-family:'Courier New', Courier, monospace;
+font-family:fantasy;
 color: black;
-}
-.nav
+}.nav
 {     
 grid-column: 7 / 10;
 text-align: center;
@@ -91,21 +90,24 @@ animation: scroll-text 8s linear infinite;
 
 .aboutusbild
 {
-border-radius: 10px;
 
+border-radius:10px;
 }
 .hero 
 {
-grid-column: 8 / 13;    
+grid-column: 1 / 13;
+padding-left: 350px;    
 }
 .hero-image {
 border-radius: 10px;
+
 box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 
 .content-section {
-grid-column: 1 / 5;
+    text-align: center;
+    grid-column: 1 / 13;
 padding: 20px;
 background-color: #fff;
 border-radius: 8px;
@@ -136,6 +138,10 @@ cursor: pointer;
 {
 grid-column: 4 / 7;
 }         
+.footer-box2 > a
+{
+color: black;
+}
 .footer-box3
 {
 grid-column: 8 / 11;   
