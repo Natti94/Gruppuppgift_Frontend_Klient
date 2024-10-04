@@ -1,41 +1,29 @@
-body
-{
-background-color: #f6f6f6;
-}
-.headerandmid 
+.header 
 {
 display: grid;
-grid-gap: 25px;
-padding-bottom: 25px;
-color: black;  
-font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-.viktigt
-{   
-grid-column: 1 / 2;
-color: black;
-width: 130%;
 }
 header
 {
-grid-column: 3 / 6;
-text-align: center;
+grid-column: 1 / 2;
+color: black;
+font-family: fantasy;
 font-size: 30px;
-font-family:fantasy;
+}
+.viktigt
+{   
+grid-column: 3 / 6;
 color: black;
 }
 .nav
 {     
-grid-column: 7 / 10;
-text-align: center;
-font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-font-size: 20px; 
+grid-column: 7 / 9;
 }
 .nav > a
 {
 color: black; 
 text-decoration: none;
-margin: 10px;
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: 20px;
 }
 .nav >
 a:hover
@@ -43,24 +31,10 @@ a:hover
 transition: color 1s ease;
 color:red;
 }
-input
-{
-grid-column: 10 / 11;
-height: 20px;
-width: 100px;
-}
 .login 
 {
-grid-column: 12 / 13;
-font-family: 'Courier New', Courier, monospace;
-text-decoration: none;
-font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+grid-column: 11 / 13;
 color: white;
-padding: 5px;
-height: 20px;
-width: 220px;
-grid-gap: 5px;
-text-align: right;
 }
 .login > a
 {
@@ -82,74 +56,58 @@ transform: translateX(-100%);
 .rea
 {
 grid-column: 1 / 13;
-color: red;
 font-size: 20px;
-animation: scroll-text 8s linear infinite;
-}
-/* övre del slut */
-.content
-{
-grid-column: 1 / 6;
+color: red;
+animation: scroll-text 15s linear;
 }
 
+
+
+.portfolio1:hover,
+.portfolio2:hover,
+.portfolio3:hover
+{
+transform: scale(1.1);    
+}
 .portfolio-vid
 {
-grid-column: 7 / 13; 
+grid-column: 4 / 13; 
 border: 1px solid black;
 border-radius: 10px;
 object-fit: cover;
 overflow: hidden;
 height: 500px;
 }
-
-.portfolio1{
-    grid-column: 1 / 13;
-    border-radius:20px ;
-
-    overflow: hidden;
-    text-align: center;
-    color: black;
+.portfolio1
+{
+grid-column: 1 / 13;
+border-radius: 20px;
+overflow: hidden;
+text-align: center;
+color: black;  
 }
-.portfolio1:hover{
-    transform: scale(1.05);
-    
-}
-
-.portfolio2{
-    grid-column: 1 / 13;
-    border-radius:20px ;
-    
-    overflow: hidden;
-    text-align: center;
-    color: black;  
-}
-    
-.portfolio2:hover{
-    transform: scale(1.05);
-
-}
-.portfolio3{
-    grid-column: 7 / 13;
-
-    border-radius: 20px;
- 
-    
-    text-align: center;
-    color: black;
-}
-.portfolio3:hover{
-    transform: scale(1.05);
+.portfolio2
+{
+grid-column: 1 / 13;
+border-radius: 20px;
+overflow: hidden;
+text-align: center;
+color: black;  
+}    
+.portfolio3
+{
+grid-column: 1 / 13;
+border-radius: 20px;
+overflow: hidden;
+text-align: center;
+color: black;
 }
 
-footer
+
+.footer
 {
 display: grid;
-grid-column: 1 / 13;
-border-top: 1px solid black; 
-grid-gap: 35px;
-padding: 15px;
-height: 180px; 
-font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+grid-gap: 20px;
 }
 .footer-box1 
 {
@@ -162,7 +120,7 @@ cursor: pointer;
 .footer-box2 
 {
 grid-column: 4 / 7;
-}
+}         
 .footer-box2 > a
 {
 color: black;
@@ -174,8 +132,80 @@ grid-column: 8 / 11;
 .footer-box4
 {
 grid-column: 12 / 13;
+}
+
+
+@media
+(max-width: 960px) and (min-width: 768px)
+{  
+header
+{
+grid-column: 1 / -1;
+}  
+.viktigt
+{
+grid-column: 0 / -1;
+}
+.nav >
+{
+grid-column: 0 / -1;
+}
+.nav > a
+{
+grid-column: 0 / -1;
 text-align: right;
 }
-/* footer avslutar här */
+.login
+{
+grid-column: 0 / -1;
+}
+.rea
+{
+grid-column: 7 / 13;
+}
+.select-list
+{
+grid-column: 1 / 4;
+}
+.result
+{
+grid-column: 5 / 13;
+}
+}
 
-/* -------------- */
+@media
+(max-width: 768px)
+{  
+header
+{
+grid-column: 1 / -1;
+}  
+.viktigt
+{
+grid-column: 1 / -1;
+}
+
+.login
+{
+grid-column: 1 / -1;
+}
+.rea
+{
+grid-column: 1 / -1;
+}
+.select-list
+{
+grid-column: 1 / -1;
+}
+.result
+{
+grid-column: 1 / -1;
+}
+.footer-box1,
+.footer-box2,
+.footer-box3,
+.footer-box4
+{
+grid-column: 1 / -1;
+}
+}
